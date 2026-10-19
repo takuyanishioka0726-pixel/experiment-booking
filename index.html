@@ -614,7 +614,7 @@ var PARAMS = new URLSearchParams(location.search);
 var DEPLOYMENT = PARAMS.get('x') || '';
 // only the lab's own experiments: built in from deploy.sh and copies/*/copy.env by build_web.py, or vouched for by
 // the template (a copy registered after this page was built; the lab Mac keeps the template's list current)
-var KNOWN_DEPLOYMENTS = ["AKfycbyq4kgLtMut0MEIkf8Oc01a6ZXXJbgNFj2rab-BNSSvPZYHRQaZRAgRM_0Hn3nyK1qJ", "AKfycbzuYnbxcqE2e1MDg5t8MwlfTetbqU9pd3xhuJFDT_244vn9hwHS3Y8S3Rf58DvXC56c"];
+var KNOWN_DEPLOYMENTS = ["AKfycbwsuQBe6EeGVecN1gfrWUslHTTMnF9fzTvA99JcW4-Zx1CdlYVAV2b4m0Mult49wIVp", "AKfycbyq4kgLtMut0MEIkf8Oc01a6ZXXJbgNFj2rab-BNSSvPZYHRQaZRAgRM_0Hn3nyK1qJ", "AKfycbzuYnbxcqE2e1MDg5t8MwlfTetbqU9pd3xhuJFDT_244vn9hwHS3Y8S3Rf58DvXC56c"];
 var TEMPLATE_DEPLOYMENT = "AKfycbyq4kgLtMut0MEIkf8Oc01a6ZXXJbgNFj2rab-BNSSvPZYHRQaZRAgRM_0Hn3nyK1qJ";
 
 function askTemplate(id) {
